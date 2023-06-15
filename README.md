@@ -54,4 +54,4 @@ The cloud architecture used is as follows :
  
 ## **Mockup Aplikasi** 
 
-![mockup](image/ui%20app.png)
+![mockup](Image/ui%20app.png)
