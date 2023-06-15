@@ -32,7 +32,7 @@ dataset penjelasan kasaran
 # Cloud Computing 
 The cloud architecture used is as follows :
 
-![cloud](image/cloud.png)
+![cloud](./Image/cloud.png)
 
 ## Link Deploy 
 `https://my-flight-388317.et.r.appspot.com`
