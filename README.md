@@ -50,6 +50,8 @@ The cloud architecture used is as follows :
 }
 ```
 
-# Mobile Development 
-Figma nya wkkw
+# Mobile Development
+ 
+## **Mockup Aplikasi** 
 
+![mockup](image/ui%20app.png)
