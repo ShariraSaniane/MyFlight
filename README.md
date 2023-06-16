@@ -24,7 +24,22 @@ My flight application is an application that will make it easier for flight serv
 
 # Machine Learning 
 
-dataset penjelasan kasaran 
+### Creating Model
+
+**Model** 
+![model1](./Image/model%20sequential%20.jpg)
+
+**Accuracy and Loss Model Diagram** 
+![model2](./Image/modelaccuracy1.jpg)
+![model3](./Image/model%20loss.jpg)
+
+### Output model data : 
+```
+  'On time': 0,
+        'Delay (10 - 30 menit)': 1,
+        'Delay (30 - 60 menit)': 2,
+        'Delay < 10 menit': 3
+```
 
 
 
