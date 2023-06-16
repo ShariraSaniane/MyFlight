@@ -6,7 +6,6 @@
 | :------------ |:---------------:| ------:|
 | Muhammad Rizal Zuhdi    | (ML) M151DSX2521 |Brawijaya University|
 |  Laila Nur Azizah    | (ML) M151DSY2367  |Brawijaya University|
-| Intan Murni Yunika   | (ML) M017DSY3717 | Bandung Institute of Technology (ITB)|
 | Sharira Saniane      | (CC) C038DSY0763 | Sepuluh Nopember Institute of Technology (ITS)|
 | Salsabila Briliana Ananda Sofi    | (CC) C038DSY0851 | Sepuluh Nopember Institute of Technology (ITS)|
 |  Audry Jesica Putri    | (MD) A360DSY1032  |Telkom University|
