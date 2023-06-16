@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.myflight.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_flightList"
+            app:destination="@id/flightList" />
+        <action
+            android:id="@+id/action_navigation_home_to_myFlight"
+            app:destination="@id/myFlight" />
+        <action
+            android:id="@+id/action_navigation_home_to_weather"
+            app:destination="@id/weather" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.example.myflight.ui.maps.MapsFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.myflight.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_profileSettings"
+            app:destination="@id/profileSettings" />
+    </fragment>
+    <activity
+        android:id="@+id/flightList"
+        android:name="com.example.myflight.FlightList"
+        android:label="activity_flight_list"
+        tools:layout="@layout/activity_flight_list" />
+    <activity
+        android:id="@+id/myFlight"
+        android:name="com.example.myflight.MyFlight"
+        android:label="activity_my_flight"
+        tools:layout="@layout/activity_my_flight" />
+    <activity
+        android:id="@+id/weather"
+        android:name="com.example.myflight.Weather"
+        android:label="activity_weather"
+        tools:layout="@layout/activity_weather" />
+    <activity
+        android:id="@+id/profileSettings"
+        android:name="com.example.myflight.ProfileSettings"
+        android:label="activity_profile_settings"
+        tools:layout="@layout/activity_profile_settings" />
+</navigation>

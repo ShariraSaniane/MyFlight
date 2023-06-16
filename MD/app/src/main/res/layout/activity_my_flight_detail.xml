@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyFlightDetail">
+
+    <ImageView
+        android:id="@+id/lionLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lionlogo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/liorAir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/lionLogo"
+        android:text="Lion Air"
+        android:textColor="@color/navy"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppinsbold"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/flightNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liorAir"
+        android:layout_toRightOf="@+id/lionLogo"
+        android:text="JT-591"
+        android:textColor="@color/navy"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingLeft="20dp"/>
+
+    <ImageButton
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/notif2"/>
+
+    <ImageView
+        android:id="@+id/batas"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lionLogo"
+        android:background="@drawable/line"
+        android:layout_marginTop="20dp"/>
+
+
+    <ImageView
+        android:id="@+id/IV_schedule"
+        android:layout_width="365dp"
+        android:layout_height="175dp"
+        android:layout_below="@+id/batas"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button3_shape"/>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batas"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Depature"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actual Depature"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule Arrival"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/TBSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_schedule"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batas"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="14:00"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="N/A"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="15:00"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/predict"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsregular"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/IV_weather"
+        android:layout_width="365dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/IV_schedule"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button3_shape"/>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_schedule"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conditions"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wind"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IV_schedule"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Overcast"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="25°C"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsregular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="350°6 kts"
+            android:textSize="18sp"
+            android:textColor="@color/navy"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsregular"/>
+    </LinearLayout>
+</RelativeLayout>

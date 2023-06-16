@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header"
+    tools:context=".ui.home.HomeFragment">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_profpict"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/profpict"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:text="@string/tv_welcome"
+        android:textSize="30sp"
+        android:textColor="@color/cyan"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:text="@string/tv_myflight"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:layout_marginTop="50dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_FlightList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_MyFlight"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_flight"
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/flight"
+        android:paddingStart="20dp"
+        android:width="300dp"
+        android:height="60dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:textColor="@color/navy" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_MyFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_myflight"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/myflight"
+        android:paddingStart="20dp"
+        android:width="300dp"
+        android:height="60dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:textColor="@color/navy"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_MyFlight"
+        android:text="@string/btn_weather"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_shape"
+        android:drawableStart="@drawable/weather"
+        android:paddingStart="20dp"
+        android:width="300dp"
+        android:height="60dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="15sp"
+        android:textColor="@color/navy"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

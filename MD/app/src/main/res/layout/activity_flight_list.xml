@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlightList">
+
+    <LinearLayout
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFlight1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="LION JT-591\n23:30 - Jakarta (CGK)\n00:45 - Surabaya (SUB)"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/button3_shape"
+            android:elevation="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:width="300dp"
+            android:height="70dp"/>
+        />
+
+        <ImageButton
+            android:id="@+id/btnNotif1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/notif"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/content2"
+        android:layout_below="@id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFlight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="LION JT-646\n23:30 - Jakarta (CGK)\n00:30 - Lombok (LOP)"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/button3_shape"
+            android:elevation="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:width="300dp"
+            android:height="70dp"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/notif"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/content3"
+        android:layout_below="@id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFlight3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="LION JT-708\n23:25 - Jakarta (CGK)\n01:25 - Makassar (UPG)"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/button3_shape"
+            android:elevation="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:width="300dp"
+            android:height="70dp"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/notif"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content4"
+        android:layout_below="@id/content3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFlight4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="LION JT-266\n23:15 - Jakarta (CGK)\n00:55 - Balikpapan (BPN)"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/button3_shape"
+            android:elevation="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:width="300dp"
+            android:height="70dp"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/notif"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content5"
+        android:layout_below="@id/content4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFlight5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:text="LION JT-690\n23:10 - Jakarta (CGK)\n01:15 - Kupang (KOE)"
+            android:textColor="@color/navy"
+            android:fontFamily="@font/poppinsbold"
+            android:background="@drawable/button3_shape"
+            android:elevation="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:width="300dp"
+            android:height="70dp"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/notif"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="notif" />
+
+    </LinearLayout>
+
+</RelativeLayout>
