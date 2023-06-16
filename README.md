@@ -30,7 +30,11 @@ My flight application is an application that will make it easier for flight serv
 ![model1](./Image/model%20sequential%20.jpg)
 
 **Accuracy and Loss Model Diagram** 
+<br>
+
 ![model2](./Image/modelaccuracy1.jpg)
+<br>
+
 ![model3](./Image/model%20loss.jpg)
 
 ### Output model data : 
